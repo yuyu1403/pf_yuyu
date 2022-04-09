@@ -1,8 +1,9 @@
+import Navbar from '../Navbar';
+import HeroSection from '../HeroSection';
 import './index.scss';
-import Sidebar from '../Sidebar';
 
 const Layout = () => {
-    return <><Sidebar /></>
+    return <><Navbar />,<HeroSection /></>
 }
 
 export default Layout;
