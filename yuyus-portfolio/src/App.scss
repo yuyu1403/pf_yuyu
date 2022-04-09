@@ -1,0 +1,22 @@
+$primary-color: #0D9BEB;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: JetBrains Mono;
+  src: url(./assets/fonts/ttf/JetBrainsMono-Regular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: JetBrains Mono;
+  src: url(./assets/fonts/ttf/JetBrainsMono-Bold.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: JetBrains Mono;
+  src: url(./assets/fonts/ttf/JetBrainsMono-Medium.ttf) format('ttf');
+}
+
+
+input, 
+textarea { font-family: JetBrains Mono; }

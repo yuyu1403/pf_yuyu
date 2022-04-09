@@ -1,0 +1,15 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: 300 11px/1.4 'JetBrains Mono', monospace;
+  color: #3E1EBE;
+  background-color: #FFFF;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
