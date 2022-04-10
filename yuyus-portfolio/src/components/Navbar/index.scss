@@ -1,12 +1,63 @@
-.nav-bar {
-    background: yellow;
+$day-background: #FFFF;
+$color-blue: #0D9BEB;
+$color-purple: #3E1EBE;
+$color-turquoise: #10F4F4;
+
+.navbar {
+    background: $day-background;
     display:flex;
+    flex-direction: row;
     height: 85px;               // a ajuster
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     font-size: 1.5rem;
     padding: 10px;
     position: sticky;
     top: 0;
     z-index: 999;                  //utile?
 }
+
+.navbar__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10 px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    width: 90vh;
+}
+
+
+.nav-links {
+    font-family: JetBrains Mono;
+    font-size: 32px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 3rem;
+}
+
+.nav-links:hover {
+    transform: scale(1.1);
+    transition: all 0.1s ease-in-out;
+}
+
+.blue {
+    color: $color-blue;
+  }
+  .purple {
+    color: $color-purple;
+  }
+  .turquoise {
+    color: $color-turquoise;
+  }
