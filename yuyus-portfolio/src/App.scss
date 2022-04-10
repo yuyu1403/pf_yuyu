@@ -1,4 +1,7 @@
-$primary-color: #0D9BEB;
+$day-background: #FFFF;
+$color-blue: #0D9BEB;
+$color-purple: #3E1EBE;
+$color-turquoise: #10F4F4;
 
 @import 'animate.css';
 
@@ -7,15 +10,15 @@ $primary-color: #0D9BEB;
   src: url(./assets/fonts/ttf/JetBrainsMono-Regular.ttf) format('ttf');
 }
 
-@font-face {
-  font-family: JetBrains Mono;
-  src: url(./assets/fonts/ttf/JetBrainsMono-Bold.ttf) format('ttf');
-}
+// @font-face {
+//   font-family: JetBrains Mono;
+//   src: url(./assets/fonts/ttf/JetBrainsMono-Bold.ttf) format('ttf');
+// }
 
-@font-face {
-  font-family: JetBrains Mono;
-  src: url(./assets/fonts/ttf/JetBrainsMono-Medium.ttf) format('ttf');
-}
+// @font-face {
+//   font-family: JetBrains Mono;
+//   src: url(./assets/fonts/ttf/JetBrainsMono-Medium.ttf) format('ttf');
+// }
 
 
 input, 
